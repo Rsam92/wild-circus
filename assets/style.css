@@ -1,0 +1,403 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Acme|Montserrat");
+
+/*reset*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px/1.4 Geneva, sans-serif;
+  color: black;
+}
+
+#wrap {
+  width: auto;
+  margin: 0 auto;
+  padding: auto;
+  background-color: black;
+  background-size: cover;
+}
+
+.header-content-wrap,
+.content-wrap,
+.footer-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a.logo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 155px;
+  background: url("https://img15.hostingpics.net/pics/348181logoWCIRCUSblanc.png") no-repeat center center;
+}
+
+a.logo:hover {
+  background-image: url("https://img15.hostingpics.net/pics/972835logoWCIRCUSorange4.png");
+}
+
+h1 {
+  padding: 30px 0;
+}
+
+h2 {
+  font-size: 55px;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Acme', sans-serif;
+  color: black;
+}
+
+h3 {
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 35px 15px;
+}
+
+.button {
+  border-radius: 30px;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.button a {
+  text-transform: uppercase;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(242, 164, 44);
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+.button a:hover {
+  color: white;
+}
+
+/**************************menu*****************/
+
+nav {
+  background-color: darkorange;
+  text-align: center;
+  height: 60px;
+}
+
+nav ul {
+  overflow-y: hidden;
+}
+
+nav li {
+  position: relative;
+  float: left;
+  list-style: none;
+  height: 60px;
+  line-height: 60px;
+  width: 25%;
+}
+
+nav li:hover {
+  background-color: red;
+  transition: 3s;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-family: 'Acme', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+nav a:hover {
+  transition: all 200ms ease-in;
+  color: black;
+}
+
+.circus {
+  background-image: url("https://img15.hostingpics.net/pics/384601circustent.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  margin: 0 auto;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+.circus:hover {
+  background-image: url("https://img15.hostingpics.net/pics/156937circustenthov.png");
+}
+
+/*********************sections****************/
+
+section {
+  overflow-y: hidden;
+  margin: 0 auto;
+}
+
+.show1,
+.show3 {
+  padding: 50px 80px 100px 80px;
+  background-color: white;
+}
+
+.show2 {
+  padding: 50px 80px 100px 80px;
+}
+
+.papillon {
+  position: absolute;
+  top: -3px;
+  left: 30px;
+}
+
+.news1,
+.news2,
+.news3 {
+  position: relative;
+  width: 50%;
+  background-color: #f2a42c;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 105px;
+  box-shadow: 2px 0px 15px #444;
+}
+
+.news1,
+.news3 {
+  float: right;
+}
+
+.news2 {
+  float: left;
+}
+
+.titleb {
+  font-family: 'Acme', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.picture {
+  float: left;
+  margin-top: 105px;
+  width: 40%;
+}
+
+.picture2 {
+  float: right;
+  margin-top: 105px;
+  width: 40%;
+}
+
+hr {
+  border: solid 2px #f2a42c;
+  width: 135px;
+  margin: 0 auto;
+  margin-top: -25px;
+}
+
+.line {
+  border: solid 2px #f2a42c;
+  width: 160px;
+  margin: 0 auto;
+  margin-top: -25px;
+}
+
+/*********************footer****************/
+
+footer {
+  background-color: black;
+  height: 120px;
+}
+
+footer ul {
+  padding-top: 25px;
+  list-style-type: none;
+  text-align: center;
+}
+
+footer a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: orange;
+}
+
+footer>p {
+  text-align: center;
+}
+
+/*=== SPRITES =====================*/
+
+.reseaux {
+  height: 50px;
+  width: 75px;
+  margin: -65px 50px;
+  float: right;
+}
+
+.reseau ul {
+  margin: 0;
+  padding: 0;
+}
+
+.reseaux ul.rs li {
+  display: block;
+  float: left;
+  list-style-type: none;
+}
+
+.reseaux ul.rs li a {
+  background: url("https://img15.hostingpics.net/pics/258877sprites.png") 0 0 no-repeat;
+  display: block;
+  height: 25px;
+  text-indent: -3000px;
+  width: 25px;
+}
+
+.reseaux ul.rs li#fb a:link {
+  background-position: 0 0
+}
+
+.reseaux ul.rs li#tw a:link {
+  background-position: -25px 0
+}
+
+.reseaux ul.rs li#yt a:link {
+  background-position: -50px 0
+}
+
+.reseaux ul.rs li#fb a:hover {
+  background-position: 0 -25px
+}
+
+.reseaux ul.rs li#tw a:hover {
+  background-position: -25px -25px
+}
+
+.reseaux ul.rs li#yt a:hover {
+  background-position: -50px -25px
+}
+
+/****************** SLIDER ***********************/
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.slider {
+  width: 100%;
+  min-height: 400px;
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider .controll {
+  position: absolute;
+  right: 20px;
+  z-index: 999;
+  margin-top: 600px;
+}
+
+.slider .controll .fa {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  padding: 5px;
+  color: white;
+  background: orange;
+}
+
+.slider .controll .fa:hover,
+.slider .controll .fa.active {
+  cursor: pointer;
+  color: #fff;
+  background: orange;
+}
+
+.slider ul {
+  position: absolute;
+  list-style: none;
+  height: 100%;
+}
+
+.slider ul li {
+  float: left;
+  text-align: center;
+  height: 100%;
+  line-height: 500px;
+  color: #ddd;
+}
+
+/****************** SLIDER img ***********************/
+
+.slider-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slider-img--1 {
+  background-image: url("https://img15.hostingpics.net/pics/360612fire.png");
+}
+
+.slider-img--2 {
+  background-image: url("https://img15.hostingpics.net/pics/206948shw3.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
+.slider-img--3 {
+  background-image: url("https://img15.hostingpics.net/pics/866243CirquePhenix.jpg");
+  background-size: cover;
+}
+
+.slider-img--4 {
+  background-image: url("https://img15.hostingpics.net/pics/737409paulbence148391.jpg");
+  background-size: cover;
+}
