@@ -1,6 +1,6 @@
 # Challenge Wild Circus
 
-## Faire un commit (sous Linux)
+## Faire un commit
 Pour faire un `commit` il faut :
 
 - ouvrir le terminal
